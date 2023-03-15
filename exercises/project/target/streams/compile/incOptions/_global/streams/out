@@ -1,0 +1,2 @@
+[debug] Created transactional ClassFileManager with tempDir = /home/victor/Documents/dev/1-Software-Development/scala/trainee_program_scala/module 3 - monitoring_akka_lightbend_telemetry/LTM-Installation-v1/exercises/project/target/scala-2.12/sbt-1.0/classes.bak
+[debug] Removing the temporary directory used for backing up class files: /home/victor/Documents/dev/1-Software-Development/scala/trainee_program_scala/module 3 - monitoring_akka_lightbend_telemetry/LTM-Installation-v1/exercises/project/target/scala-2.12/sbt-1.0/classes.bak

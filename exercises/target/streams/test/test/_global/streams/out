@@ -1,0 +1,32 @@
+[0m[[0m[0mdebug[0m] [0m[0mjavaOptions: Vector()[0m
+[0m[[0m[0mdebug[0m] [0m[0mForking tests - parallelism = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreate a single-thread test executor[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunner for org.scalatest.tools.Framework produced 2 initial tasks for 2 tests.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(com.reactivebbq.customers.CustomerActorSpec, sbt.ForkMain$SubclassFingerscan@783e6358, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCustomerActorSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCustomer registry actor[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must return None for a customer that does not exist[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must create a new customer and return it[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must create multiple customers and retrieve each[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must add an order to a customer[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must add and retrieve multiple orders from a customer[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 5 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(com.reactivebbq.customers.CustomerRoutesSpec, sbt.ForkMain$SubclassFingerscan@17550481, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCustomerRoutesSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCustomerRoutes[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be able to add customers (POST /customers)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be able to retrieve a customer[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be able to return not found for a non-existent customer[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be able to add an order to a customer[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return not found when adding an order to a non existent user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should retrieve all orders[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should retrieve all orders where customer doesn't exist[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 7 events.[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 8 seconds, 512 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 12[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 2, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 12, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.reactivebbq.customers.CustomerRoutesSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.reactivebbq.customers.CustomerActorSpec[0m
